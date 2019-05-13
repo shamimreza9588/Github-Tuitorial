@@ -1,0 +1,49 @@
+1.git init
+2.git congig --global user.name ""
+3.git config --global user.email ""
+4.git config --user.name ""
+5.git config --user.email ""
+6.git config --list
+7.clear
+8.git status
+tracked and untracked condition then next step
+9.git add filename for staging area
+10.git add --all
+11.git add .
+12.git commit
+13. i 2 text file added esc :x
+14.git commit -m "chocolet"
+15. git log
+16.git log --oneline
+16.git checkout 
+17. git checkout master
+18.git diff
+19.git show 
+20.git diff --staged
+21.git rm file name
+22. git reset HEAD hot.txt
+23.git branch
+24.git branch new branch
+25.git checkout nasrin
+26.git remote add origin
+27.git push origin master
+28.git clone link
+29.git clone link -b branchname
+----------send to github---------
+1.git remote set-url origin link
+2.git add filename
+3.git commit -m "message"
+4.git push origin master
+5.git rm --cached file name
+6.git commit -m "deletes that commint"
+7.git push origin master
+8.git checkout origin/master --test.txt
+ git remote set-url origin
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
